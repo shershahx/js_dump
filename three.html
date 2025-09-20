@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+        background-color: #1a1a2e;
+        color: #fff;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai & Choco</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const div = document.createElement('div');
+    console.log(div);
+    div.className = 'main';
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute('title', 'SHER SHAH KHAN');
+    div.style.backgroundColor = 'green';
+    div.style.padding = '15px';
+  //  div.innerText = "This is Hello World!" 
+    const addText = document.createTextNode('This is a text node');
+    div.appendChild(addText);
+
+    document.body.appendChild(div);
+</script>
+</html>
